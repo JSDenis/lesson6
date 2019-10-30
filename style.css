@@ -144,6 +144,45 @@ table {
 	color: blueviolet;
 }
 
+.container3{
+	background: #fbfaf8;
+	text-align: center;
+}
+
+.container3 img{
+	max-width: 1230px;
+	width: 100%;
+}
+
+.container4{
+	height: 150px;
+	background: linear-gradient(to right,#211b19,#4e3427);
+}
+
+
+
+.container5 .center .grid_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 340px 340px;
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+}
+
+.container5 .center .grid_container .item{
+	border: 5px solid #000;
+}
+
+.container5 .center .grid_container .item svg{
+	display: none;
+	font-size: 50px;
+}
+
+.container5 .center .grid_container .item:hover svg{
+	display: block;
+
+}
+
 
 
 

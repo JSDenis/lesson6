@@ -184,5 +184,13 @@ table {
 }
 
 
+.container7 .center .left_image img{
+	max-width: 100%;
+}
+
+.container8 .center .content div{
+	border: 3px solid #000;
+}
+
 
 

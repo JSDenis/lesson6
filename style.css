@@ -215,5 +215,28 @@ table {
 	padding-top: 120px;
 }
 
+@media (max-width: 992px){
+	.container1 .center header .header_navbar .menu{
+		display: none;
+	}
+	.burger{
+		display: inline-block;
+		margin-left: 100%;
+	}
+	.burger i{
+		display: block;
+		width: 25px;
+		height: 4px;
+		margin: 3px;
+		background: #fff;
+	}
+	.container1 .center header .header_navbar .show{
+		display: inline-block;
+		width: 10%;
+		margin-left: 100%;
+		background: beige;
+	}
+}
+
 
 
